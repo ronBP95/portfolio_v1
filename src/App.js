@@ -16,12 +16,16 @@ function App() {
       </Navbar>
 
       <div className="welcomecontainer">
-        <h4>Hi I'm Ron!</h4>
-        <h1>Welcome to my portfolio!</h1>
+
+        <div className="welcome">
+        <p>Hi I'm Ron!</p>
+        <p><i>WELCOME TO MY PORTFOLIO</i></p>
+        <Button id="welcomebutton">Let's Go!</Button>
+        </div>
       </div>
 
       <div className="skills">
-        <h1><strong>Skills</strong></h1>
+        <h1><strong>Skills / Tech Stack</strong></h1>
         <h2>😎skill 1</h2>
         <h2>😎skill 2</h2>
         <h2>😎skill 3</h2>

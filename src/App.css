@@ -38,6 +38,9 @@
 }
 
 .welcomecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: lightblue;
   background-image: url(./assets/kb.jpg);
   height: 1000px;
@@ -48,6 +51,7 @@
   text-align:center;
   margin:auto;
   padding:0;
+  font: white;
 }
 
 .projects {
@@ -86,3 +90,23 @@
 .buttoncontainer {
   margin-right: 200px
 }
+
+.welcome {
+  margin-bottom: 300px;
+  color: white;
+  height: 200px;
+  width: 350px;
+  font-size: 2em;
+}
+
+#welcomebutton {
+  margin-top: 10px;
+}
+
+.skills {
+  display: inline-block;
+  background-color: lightgray;
+  height: 1000px;
+  width: 100%;
+}
+
