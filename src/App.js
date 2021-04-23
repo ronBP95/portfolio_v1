@@ -5,24 +5,27 @@ import { Card, Button, Navbar, Nav } from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
-
-      <Navbar bg="dark" variant="dark">
-        <Nav>
+      
+      <Navbar className="justify-content-end" bg="dark" variant="dark">
+        <Nav className="buttoncontainer">
+          <Nav.Link className="navbutton"><strong>home</strong></Nav.Link>
           <Nav.Link className="navbutton"><strong>skills</strong></Nav.Link>
           <Nav.Link className="navbutton"><strong>projects</strong></Nav.Link>
           <Nav.Link className="navbutton"><strong>about</strong></Nav.Link>
         </Nav>
       </Navbar>
 
-      <div className="container1">
-        <h1>Hi I'm Ron!</h1>
-        <h2>Welcome to my portfolio!</h2>
+      <div className="welcomecontainer">
+        <h4>Hi I'm Ron!</h4>
+        <h1>Welcome to my portfolio!</h1>
       </div>
+
       <div className="skills">
-        <h1>😎skill 1</h1>
-        <h1>😎skill 2</h1>
-        <h1>😎skill 3</h1>
-        <h1>😎skill 4</h1>
+        <h1><strong>Skills</strong></h1>
+        <h2>😎skill 1</h2>
+        <h2>😎skill 2</h2>
+        <h2>😎skill 3</h2>
+        <h2>😎skill 4</h2>
       </div>
 
       <div className="topcards">

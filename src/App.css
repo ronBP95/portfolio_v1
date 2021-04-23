@@ -37,8 +37,17 @@
   }
 }
 
-.container1 {
+.welcomecontainer {
   background-color: lightblue;
+  background-image: url(./assets/kb.jpg);
+  height: 1000px;
+  width: 100%;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:auto;
+  padding:0;
 }
 
 .projects {
@@ -71,6 +80,9 @@
 }
 
 .navbutton {
-  
+  margin-right: 20px;
 }
 
+.buttoncontainer {
+  margin-right: 200px
+}
