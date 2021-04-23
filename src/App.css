@@ -62,17 +62,6 @@
   background-color: lightgreen
 }
 
-.topcards{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 20%;
-}
-
-#bottomcard{
-  width: 10%;
-}
-
 .cardcontainer {
   display: flex;
   flex-direction: row;
@@ -104,9 +93,50 @@
 }
 
 .skills {
-  display: inline-block;
   background-color: lightgray;
   height: 1000px;
   width: 100%;
 }
 
+.skillcontainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.skillcontainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.skillcontainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#skilltitle {
+  font-size: 5em;
+}
+
+.techskill {
+  margin-bottom: 20px;
+}
+
+.logos {
+  height: 75px;
+  width: 75px;
+}
+
+.innerproject {
+  margin-top: 30px;
+}
+
+.cardbody {
+  background-color: salmon;
+}
