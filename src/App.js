@@ -65,14 +65,14 @@ function App() {
       </div>
 
       <div className="projectscontainer">
-        
+
         <h1>Projects</h1>
 
           <Card className="actualcard">
             <Card.Img />
             <Card.Body className="cardbody">
               <Card.Title>
-                Pokemon
+                Pokemon Simulator
               </Card.Title>
               <Card.Text>
                 Battle Simulator built in Vanilla JS
@@ -117,10 +117,20 @@ function App() {
           </Card>
       </div>
 
+      <h1>About Me</h1>
       <div className="about">
-        <h2>About Me Information goes down here</h2>
+        <p id="paragraph">I have a passion for creating solutions and building applications that have impact. I originally came from a background in Sales/Recruiting but have an inherent interest in technology, gaming, and food. Contact me so we can talk about the next greatest invention, upcoming game, or tasty dish!</p>
+      </div>
+
+      <h1>Contact</h1>
+      <div className="contactcontainer">
+      <a target="_blank" href="https://www.linkedin.com/in/ron-magpantay/">🔗 Linkedin 🔗</a>
+      <a target="_blank" href="https://github.com/ronBP95">📧 Email 📧</a>
+      <a target="_blank" href="https://github.com/ronBP95">🖥️ Github 🖥️</a>
       </div>
     </div>
+
+
   );
 }
 

@@ -59,7 +59,7 @@
 }
 
 .about {
-  background-color: lightgreen
+  background-color: lightgreen;
 }
 
 .cardcontainer {
@@ -139,4 +139,15 @@
 
 .cardbody {
   background-color: salmon;
+}
+
+
+#paragraph {
+  font-size: 2em;
+}
+
+.contactcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
 }
